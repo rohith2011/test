@@ -152,10 +152,10 @@ body{
 }
 
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .desktopMain {
       display: none;
-}
+} */
 
 #mobnav{
     display: flex;
@@ -179,7 +179,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding-bottom: 10rem;
-    padding-top: 20rem;
+    padding-top: 20%;
   }
 
   #mobtitle-content{
@@ -187,4 +187,41 @@ body{
     text-align: center;
     line-height: 1.3rem;
     font-size: 1.1rem;
+  }
+
+
+  #mobcoming-soon {
+    font-size: 50px;
+  }
+  #mobbottom{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #mobbottom-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    height: auto;
+    color: rgba(231, 240, 255, 1);
+    letter-spacing: 0;
+    opacity: 1;
+    margin-top: 1%;
+  }
+  #mobbuttons{
+    height: auto;
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+  }
+
+  #mobfooter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
   }
