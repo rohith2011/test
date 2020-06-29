@@ -1,13 +1,5 @@
-/* * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-} */
 
-/* @media only screen and (max-width: 768px) {
-    .desktopMain {
-      display: none;
-    } */
+
 
 
 
@@ -158,3 +150,40 @@ body{
     width: 75px;
     height: 25px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .desktopMain {
+      display: none;
+}
+
+#mobnav{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#mobiLogo {
+    display: flex;
+    justify-content: right;
+    flex-flow: row nowrap;
+    position: fixed;
+    top: 10px;
+    right: 11%;
+    width: 75px;
+    height: 25px;
+  }
+
+  #mobititle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  #mobtitle-content{
+    height: auto;
+    text-align: center;
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+  }
