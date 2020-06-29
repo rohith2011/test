@@ -1,7 +1,9 @@
 
 
 
-
+#mobileMain{
+    display: none;
+}
 
 body{
     margin: 0;
@@ -152,10 +154,16 @@ body{
 }
 
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .desktopMain {
       display: none;
-} */
+}
+#mobileMain
+{
+    display: block;
+}
+
+
 
 #mobnav{
     display: flex;
@@ -225,3 +233,4 @@ body{
     flex-direction: column;
     font-size: 1rem;
   }
+}
